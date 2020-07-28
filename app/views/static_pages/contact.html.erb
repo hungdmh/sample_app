@@ -1,0 +1,5 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= t(".links.rt_contact_page_html", href: link_to(t(".contact_page_text"), Settings.links.rails_tutorial.contact_page)) %>
+</p>
