@@ -1,4 +1,36 @@
-en:
-  application:
-    index:
-      title: "App Sample!"
+vi:
+  layouts:
+    application:
+      title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      "english": "Tiếng Anh"
+      "vietnamese": "Tiếng Việt"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      description: "Đây là trang chủ cho"
+      rt_home_page_text: "Hướng dẫn Ruby on Rails"
+      links:
+        rt_home_page_html: "%{href} ứng dụng mẫu."
+    help:
+      title: "Trợ giúp"
+      description: "Tìm trợ giúp về Ruby on Rails Tutorial tại"
+      rt_home_page_text_html: "<em>Ruby on Rails Tutorial</em>."
+      rt_help_page_text: "Trang trợ giúp của Rails Tutorial"
+      links:
+        rt_help_page_html: "%{href} để tìm trợ giúp về ứng dụng mẫu, xem tại"
+    about:
+      title: "Thông tin"
+      rt_home_page_text_html: "<em>Ruby on Rails Tutorial</em>."
+      rt_screencasts_page_text: "chuỗi screencast"
+      rt_book_page_text: "và"
+      links:
+        rt_home_page_html: "%{href}, là một phần của"
+        learn_enough_page_html: "%{href} chuỗi các tutorials, là một"
+        rt_book_page_html: "%{href} và"
+        rt_screencasts_page_html: "%{href} để dạy web dev"
+        rails_page_html: "%{href}. Đây là ứng dụng mẫu cho tutorial."
+    contact:
+      title: "Liên hệ"
+      contact_page_text: "trang liên hệ"
+      links:
+        rt_contact_page_html: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại %{href}."
