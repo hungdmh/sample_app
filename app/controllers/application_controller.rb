@@ -1,10 +1,6 @@
 class ApplicationController < ActionController::Base
   around_action :switch_locale
 
-  def index
-    render html: "Hello world!"
-  end
-
   def switch_locale &action
     locale = params[:locale] || I18n.default_locale
     I18n.with_locale(locale, &action)
