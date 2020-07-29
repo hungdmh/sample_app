@@ -1,6 +1,10 @@
 <% provide :title, t(".title") %>
-<h1><%= t ".title" %></h1>
-<p>
-  <%= t ".description" %>
-  <%= t(".links.rt_home_page_html", href: link_to(t(".rt_home_page_text"), Settings.links.rails_tutorial.home_page)) %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".title" %></h1>
+  <h2>
+    <%= t ".description" %>
+    <%= t(".links.rt_home_page_html", href: link_to(t(".rt_home_page_text"), Settings.links.rails_tutorial.home_page)) %>
+  </h2>
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "#{Settings.size.logo}px"), "https://rubyonrails.org/" %>

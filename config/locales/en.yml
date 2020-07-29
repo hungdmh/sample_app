@@ -2,13 +2,27 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    header:
+      sign_up: Sign Up
+      login: Login
+      home: Home
+      help: Help
+      title: Sample App
+      languages: Languages
       "english": "English"
       "vietnamese": "Vietnamese"
+    footer:
+      rt_home_page_text: "Ruby on Rails Tutorial"
+      author: Hung Do
+      about: About
+      contact: Contact
+      news: News
   static_pages:
     home:
-      title: "Home"
+      title: "Welcome to the Sample App"
       description: "This is the home page for the"
       rt_home_page_text: "Ruby on Rails Tutorial"
+      sign_up: Sign up
       links:
         rt_home_page_html: "%{href} sample application."
     help:
@@ -34,3 +48,8 @@ en:
       contact_page_text: "contact page"
       links:
         rt_contact_page_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{href}."
+  users:
+    new:
+      title: Sign Up
+      desc: This will be a signup page for new users.
+
