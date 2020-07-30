@@ -11,3 +11,13 @@ links:
     home_page: "https://rubyonrails.org/"
 size:
   logo: 200
+validations:
+  user:
+    name:
+      min_length: 3
+      max_length: 50
+    email:
+      max_length: 255
+      regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+    password:
+      min_length: 6
