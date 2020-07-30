@@ -5,6 +5,9 @@ links:
     book_page: "https://www.railstutorial.org/book"
     screencasts_page: "https://screencasts.railstutorial.org/"
     contact_page: https://www.railstutorial.org/contact
+    news_page: "https://news.learnenough.com/"
   learn_enough: "https://www.learnenough.com/"
   rails:
     home_page: "https://rubyonrails.org/"
+size:
+  logo: 200

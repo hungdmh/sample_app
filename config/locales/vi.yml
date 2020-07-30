@@ -2,13 +2,26 @@ vi:
   layouts:
     application:
       title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+    header:
+      login: Đăng nhập
+      home: Trang chủ
+      help: Trợ giúp
+      title: Ứng dụng mẫu
+      languages: Ngôn ngữ
       "english": "Tiếng Anh"
       "vietnamese": "Tiếng Việt"
+    footer:
+      rt_home_page_text: "Hướng dẫn Ruby on Rails"
+      author: Hung Do
+      about: Về chúng tôi
+      contact: Liên hệ
+      news: Tin tức
   static_pages:
     home:
-      title: "Trang chủ"
+      title: "Chào mừng tới ứng dụng mẫu"
       description: "Đây là trang chủ cho"
       rt_home_page_text: "Hướng dẫn Ruby on Rails"
+      sign_up: Đăng ký
       links:
         rt_home_page_html: "%{href} ứng dụng mẫu."
     help:
@@ -34,3 +47,7 @@ vi:
       contact_page_text: "trang liên hệ"
       links:
         rt_contact_page_html: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại %{href}."
+  users:
+    new:
+      title: Đăng ký
+      desc: Đây là trang đăng ký cho người dùng mới.
