@@ -12,6 +12,11 @@ en:
       languages: Languages
       english: English
       vietnamese: Vietnamese
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Log out
     footer:
       rt_home_page_text: Ruby on Rails Tutorial
       author: Hung Do
@@ -65,3 +70,14 @@ en:
     error_messages:
       error_count_text: The form contains
       error: error
+  sessions:
+    new:
+      title: Login
+      sign_up_text: Sign up now!
+      new_user: New user?
+      submit: Log in
+      email: Email
+      password: Password
+    create:
+      invalid_credentials: Invalid email/password combination
+      login_successfully: Logged in successfully!

@@ -11,6 +11,11 @@ vi:
       languages: Ngôn ngữ
       english: Tiếng Anh
       vietnamese: Tiếng Việt
+      users: Các người dùng
+      account: Tài khoản
+      profile: Trang cá nhân
+      settings: Cài đặt
+      logout: Đăng xuất
     footer:
       rt_home_page_text: Hướng dẫn Ruby on Rails
       author: Hung Do
@@ -64,3 +69,14 @@ vi:
     error_messages:
       error_count_text: Đã có
       error: lỗi
+  sessions:
+    new:
+      title: Đăng nhập
+      sign_up_text: Đăng ký ngay!
+      new_user: Người dùng mới?
+      submit: Đăng nhập
+      email: Email
+      password: Mật khẩu
+    create:
+      invalid_credentials: Sai tên đăng nhập hoặc mật khẩu!
+      login_successfully: Logged in successfully!

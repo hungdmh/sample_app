@@ -1,9 +1,10 @@
 class UsersController < ApplicationController
-  
+
   def create
     @user = User.new user_params
     if @user.save
       flash[:success] = t "welcome"
+      log_in @user
       redirect_to @user
     else
       flash[:danger] = t "users.create.error"
