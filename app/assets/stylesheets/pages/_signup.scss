@@ -1,7 +1,4 @@
-input,
-textarea,
-select,
-.uneditable-input {
+input, textarea, select, .uneditable-input {
   border: 1px solid $gray-100;
   width: 100%;
   margin-bottom: 15px;
@@ -9,7 +6,7 @@ select,
 }
 
 input {
-  height: auto !important;
+  height: auto;
 }
 
 #error_explanation {
