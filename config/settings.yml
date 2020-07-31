@@ -11,6 +11,7 @@ links:
     home_page: "https://rubyonrails.org/"
 size:
   logo: 200
+  avatar: 80
 validations:
   user:
     name:

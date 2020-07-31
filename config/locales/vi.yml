@@ -1,41 +1,42 @@
 vi:
+  welcome: Chào mừng tới ứng dụng mẫu
   layouts:
     application:
-      title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      title: Ứng dụng mẫu hướng dẫn Ruby on Rails
     header:
       login: Đăng nhập
       home: Trang chủ
       help: Trợ giúp
       title: Ứng dụng mẫu
       languages: Ngôn ngữ
-      "english": "Tiếng Anh"
-      "vietnamese": "Tiếng Việt"
+      english: Tiếng Anh
+      vietnamese: Tiếng Việt
     footer:
-      rt_home_page_text: "Hướng dẫn Ruby on Rails"
+      rt_home_page_text: Hướng dẫn Ruby on Rails
       author: Hung Do
       about: Về chúng tôi
       contact: Liên hệ
       news: Tin tức
   static_pages:
     home:
-      title: "Chào mừng tới ứng dụng mẫu"
-      description: "Đây là trang chủ cho"
-      rt_home_page_text: "Hướng dẫn Ruby on Rails"
+      title: Chào mừng tới ứng dụng mẫu
+      description: Đây là trang chủ cho
+      rt_home_page_text: Hướng dẫn Ruby on Rails
       sign_up: Đăng ký
       links:
         rt_home_page_html: "%{href} ứng dụng mẫu."
     help:
-      title: "Trợ giúp"
-      description: "Tìm trợ giúp về Ruby on Rails Tutorial tại"
-      rt_home_page_text_html: "<em>Ruby on Rails Tutorial</em>."
-      rt_help_page_text: "Trang trợ giúp của Rails Tutorial"
+      title: Trợ giúp
+      description: Tìm trợ giúp về Ruby on Rails Tutorial tại
+      rt_home_page_text_html: <em>Ruby on Rails Tutorial</em>.
+      rt_help_page_text: Trang trợ giúp của Rails Tutorial
       links:
         rt_help_page_html: "%{href} để tìm trợ giúp về ứng dụng mẫu, xem tại"
     about:
-      title: "Thông tin"
-      rt_home_page_text_html: "<em>Ruby on Rails Tutorial</em>."
-      rt_screencasts_page_text: "chuỗi screencast"
-      rt_book_page_text: "và"
+      title: Thông tin
+      rt_home_page_text_html: <em>Ruby on Rails Tutorial</em>.
+      rt_screencasts_page_text: chuỗi screencast
+      rt_book_page_text: và
       links:
         rt_home_page_html: "%{href}, là một phần của"
         learn_enough_page_html: "%{href} chuỗi các tutorials, là một"
@@ -43,11 +44,23 @@ vi:
         rt_screencasts_page_html: "%{href} để dạy web dev"
         rails_page_html: "%{href}. Đây là ứng dụng mẫu cho tutorial."
     contact:
-      title: "Liên hệ"
-      contact_page_text: "trang liên hệ"
+      title: Liên hệ
+      contact_page_text: trang liên hệ
       links:
-        rt_contact_page_html: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại %{href}."
+        rt_contact_page_html: Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại %{href}.
   users:
     new:
       title: Đăng ký
-      desc: Đây là trang đăng ký cho người dùng mới.
+      submit: Tạo tài khoản
+      name: Tên
+      email: Email
+      password: Mật khẩu
+      password_confirmation: Nhập lại mật khẩu
+    create:
+      error: Đã có lỗi khi đăng ký!
+    show:
+      user_not_found: User not found!
+  shared:
+    error_messages:
+      error_count_text: Đã có
+      error: lỗi

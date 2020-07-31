@@ -1,7 +1,8 @@
 en:
+  welcome: Welcome to the Sample App!
   layouts:
     application:
-      title: "Ruby on Rails Tutorial Sample App"
+      title: Ruby on Rails Tutorial Sample App
     header:
       sign_up: Sign Up
       login: Login
@@ -9,47 +10,58 @@ en:
       help: Help
       title: Sample App
       languages: Languages
-      "english": "English"
-      "vietnamese": "Vietnamese"
+      english: English
+      vietnamese: Vietnamese
     footer:
-      rt_home_page_text: "Ruby on Rails Tutorial"
+      rt_home_page_text: Ruby on Rails Tutorial
       author: Hung Do
       about: About
       contact: Contact
       news: News
   static_pages:
     home:
-      title: "Welcome to the Sample App"
-      description: "This is the home page for the"
-      rt_home_page_text: "Ruby on Rails Tutorial"
+      title: Welcome to the Sample App
+      description: This is the home page for the
+      rt_home_page_text: Ruby on Rails Tutorial
       sign_up: Sign up
       links:
         rt_home_page_html: "%{href} sample application."
     help:
-      title: "Help"
-      description: "Get help on the Ruby on Rails Tutorial at the"
-      rt_home_page_text_html: "<em>Ruby on Rails Tutorial</em>."
-      rt_help_page_text: "Rails Tutorial Help page"
+      title: Help
+      description: Get help on the Ruby on Rails Tutorial at the
+      rt_home_page_text_html: <em>Ruby on Rails Tutorial</em>.
+      rt_help_page_text: Rails Tutorial Help page
       links:
         rt_help_page_html: "%{href} To get help on this sample app, see the"
     about:
-      title: "About"
-      rt_home_page_text_html: "<em>Ruby on Rails Tutorial</em>."
-      rt_screencasts_page_text: "screencast series"
-      rt_book_page_text: "and"
+      title: About
+      rt_home_page_text_html: <em>Ruby on Rails Tutorial</em>.
+      rt_screencasts_page_text: screencast series
+      rt_book_page_text: and
       links:
-        rt_home_page_html: "The %{href}, part of the"
+        rt_home_page_html: The %{href}, part of the
         learn_enough_page_html: "%{href} family of tutorials, is a"
         rt_book_page_html: "%{href} and"
         rt_screencasts_page_html: "%{href} to teach web development with"
         rails_page_html: "%{href}.This is the sample app for the tutorial."
     contact:
-      title: "Contact"
-      contact_page_text: "contact page"
+      title: Contact
+      contact_page_text: contact page
       links:
-        rt_contact_page_html: "Contact the Ruby on Rails Tutorial about the sample app at the %{href}."
+        rt_contact_page_html: Contact the Ruby on Rails Tutorial about the sample app at the %{href}.
   users:
     new:
       title: Sign Up
-      desc: This will be a signup page for new users.
-
+      submit: Create new account
+      name: Name
+      email: Email
+      password: Password
+      password_confirmation: Password Confirmation
+    create:
+      error: Error signing up!
+    show:
+      user_not_found: Không tìm thấy người dùng
+  shared:
+    error_messages:
+      error_count_text: The form contains
+      error: error
