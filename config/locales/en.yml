@@ -65,7 +65,7 @@ en:
     create:
       error: Error signing up!
     show:
-      user_not_found: Không tìm thấy người dùng
+      user_not_found: User not found!
   shared:
     error_messages:
       error_count_text: The form contains
@@ -78,6 +78,7 @@ en:
       submit: Log in
       email: Email
       password: Password
+      remember_me: Remember me
     create:
       invalid_credentials: Invalid email/password combination
       login_successfully: Logged in successfully!
