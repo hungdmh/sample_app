@@ -1,5 +1,11 @@
 vi:
   welcome: Chào mừng tới ứng dụng mẫu
+  views:
+    pagination:
+      previous: Trang trước
+      next: Trang tiếp
+      first: Trang đầu
+      last: Trang cuối
   layouts:
     application:
       title: Ứng dụng mẫu hướng dẫn Ruby on Rails
@@ -54,17 +60,32 @@ vi:
       links:
         rt_contact_page_html: Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại %{href}.
   users:
+    index:
+      title: Tất cả người dùng
     new:
       title: Đăng ký
       submit: Tạo tài khoản
+    create:
+      error: Đã có lỗi khi đăng ký!
+    show:
+      user_not_found: User not found!
+    edit:
+      page_title: Sửa thông tin
+      title: Cập nhật hồ sơ
+      submit: Cập nhật
+      change: Thay đổi hình đại diện
+      success: Cập nhật thành công!
+      unauthenticated: Đăng nhập để tiếp tục.
+    destroy:
+      success: Xoá người dùng thành công!
+    form:
       name: Tên
       email: Email
       password: Mật khẩu
       password_confirmation: Nhập lại mật khẩu
-    create:
-      error: Đã có lỗi khi đăng ký!
-    show:
-      user_not_found: Không tìm thấy người dùng
+    user:
+      delete: "Xoá"
+      confirm: "Chắc chắn chưa?"
   shared:
     error_messages:
       error_count_text: Đã có

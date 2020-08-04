@@ -1,4 +1,10 @@
 en:
+  views:
+    pagination:
+      previous: Trang trước
+      next: Trang tiếp
+      first: Trang đầu
+      last: Trang cuối
   welcome: Welcome to the Sample App!
   layouts:
     application:
@@ -55,17 +61,32 @@ en:
       links:
         rt_contact_page_html: Contact the Ruby on Rails Tutorial about the sample app at the %{href}.
   users:
+    index:
+      title: All Users
     new:
       title: Sign Up
       submit: Create new account
+    create:
+      error: Error signing up!
+    show:
+      user_not_found: Không tìm thấy người dùng
+    edit:
+      page_title: Edit user
+      title: Update your profile
+      submit: Save changes
+      change: Thay đổi hình đại diện
+      success: Profile updated
+      unauthenticated: Please log in to continue.
+      destroy:
+        success: User deleted
+    form:
       name: Name
       email: Email
       password: Password
       password_confirmation: Password Confirmation
-    create:
-      error: Error signing up!
-    show:
-      user_not_found: User not found!
+    user:
+      delete: Delete
+      confirm: "Are you sure?"
   shared:
     error_messages:
       error_count_text: The form contains
