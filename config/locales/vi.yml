@@ -67,8 +67,9 @@ vi:
       submit: Tạo tài khoản
     create:
       error: Đã có lỗi khi đăng ký!
+    
     show:
-      user_not_found: User not found!
+      user_not_found: Không tìm thấy người dùng hoặc chưa được kích hoạt
     edit:
       page_title: Sửa thông tin
       title: Cập nhật hồ sơ
@@ -102,3 +103,16 @@ vi:
     create:
       invalid_credentials: Sai tên đăng nhập hoặc mật khẩu!
       login_successfully: Logged in successfully!
+      please_activate: Tài khoản chưa được kích hoạt. Kiểm tra email trong hòm thư để lấy link kích hoạt.
+  account_activations:
+    edit:
+      activated: Tài khoản đã được kích hoạt!
+      invalid_activation_link: Liên kết kích hoạt tài khoản không hợp lệ!
+  user_mailer:
+    please_activate: Kiểm tra email để kích hoạt tài khoản của bạn
+    account_activation:
+      subject: Kích hoạt tài khoản
+      title: Ứng dụng mẫu
+      welcome: "Chào mừng tới ứng dụng mẫu! Ấn vào link bên dưới để kích hoạt tài khoản của bạn:"
+      activate_link: Kích hoạt
+      hi: Xin chào

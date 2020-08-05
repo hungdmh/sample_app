@@ -1,10 +1,10 @@
 en:
   views:
     pagination:
-      previous: Trang trước
-      next: Trang tiếp
-      first: Trang đầu
-      last: Trang cuối
+      previous: Previous
+      next: Next
+      first: First
+      last: Last
   welcome: Welcome to the Sample App!
   layouts:
     application:
@@ -69,12 +69,12 @@ en:
     create:
       error: Error signing up!
     show:
-      user_not_found: Không tìm thấy người dùng
+      user_not_found: User not found!
     edit:
       page_title: Edit user
       title: Update your profile
       submit: Save changes
-      change: Thay đổi hình đại diện
+      change: Change avatar
       success: Profile updated
       unauthenticated: Please log in to continue.
       destroy:
@@ -103,3 +103,16 @@ en:
     create:
       invalid_credentials: Invalid email/password combination
       login_successfully: Logged in successfully!
+      please_activate: Account not activated. Check your email for the activation link.
+  account_activations:
+    edit:
+      activated: Account activated!
+      invalid_activation_link: Invalid activation link
+  user_mailer:
+    please_activate: Please check your email to activate your account.
+    account_activation:
+      subject: Account activation
+      title: Sample App
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_link: Activate
+      hi: Hi
