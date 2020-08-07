@@ -26,6 +26,8 @@ class UsersController < ApplicationController
 
   def show
     @user = find_user_by_id params[:id]
+    page = params[:page]
+    @microposts = @user.microposts.page(page).per Settings.pagination.per_page
     return if @user&.activated
 
     flash[:danger] = t ".user_not_found"
@@ -46,14 +48,6 @@ class UsersController < ApplicationController
     else
       render :edit
     end
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "users.edit.unauthenticated"
-    redirect_to login_url
   end
 
   def correct_user
