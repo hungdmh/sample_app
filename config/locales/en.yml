@@ -37,6 +37,7 @@ en:
       sign_up: Sign up
       links:
         rt_home_page_html: "%{href} sample application."
+      feed: Micropost Feed
     help:
       title: Help
       description: Get help on the Ruby on Rails Tutorial at the
@@ -70,6 +71,7 @@ en:
       error: Error signing up!
     show:
       user_not_found: User not found!
+      microposts: Microposts
     edit:
       page_title: Edit user
       title: Update your profile
@@ -91,6 +93,13 @@ en:
     error_messages:
       error_count_text: The form contains
       error: error
+    micropost_form:
+      placeholder: Compose new micropost...
+      submit: "Post"
+      max_size_alert: Maximum file size is 5MB. Please choose a smaller file.
+    user_info:
+      view_my_profile: "view my profile"
+      micropost: micropost
   sessions:
     new:
       title: Login
@@ -143,3 +152,16 @@ en:
       submit: Update password
       password: Password
       password_confirmation: Pasword Confirmation
+  microposts:
+      create:
+        success: Micropost created!
+        fail: Error creating micropost
+      destroy:
+        success: "Micropost deleted"
+      micropost:
+        post_time: "Post %{time} ago"
+        delete: Delete
+        confirm: You sure?
+      errors:
+        image_format: "must be a valid image format"
+        size_too_big: "should be less than 5MB"

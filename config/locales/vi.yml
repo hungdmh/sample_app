@@ -36,6 +36,7 @@ vi:
       sign_up: Đăng ký
       links:
         rt_home_page_html: "%{href} ứng dụng mẫu."
+      feed: Bảng tin bài đăng
     help:
       title: Trợ giúp
       description: Tìm trợ giúp về Ruby on Rails Tutorial tại
@@ -69,6 +70,7 @@ vi:
       error: Đã có lỗi khi đăng ký!
     show:
       user_not_found: Không tìm thấy người dùng hoặc chưa được kích hoạt
+      microposts: Bài đăng
     edit:
       page_title: Sửa thông tin
       title: Cập nhật hồ sơ
@@ -90,6 +92,13 @@ vi:
     error_messages:
       error_count_text: Đã có
       error: lỗi
+    micropost_form:
+       placeholder: Đăng bài mới...
+       submit: Đăng
+       max_size_alert: Kích cỡ tệp tin tối đa là 5mb.
+    user_info:
+      view_my_profile: Xem trang cá nhân
+      micropost: bài đăng
   sessions:
     new:
       title: Đăng nhập
@@ -142,3 +151,16 @@ vi:
       submit: Đặt lại
       password: Mật khẩu
       password_confirmation: Nhập lại mật khẩu
+  microposts:
+      create:
+        success: Đã tạo bài viết!
+        fail: Đã có lỗi khi tạo bài viết!
+      destroy:
+        success: Đã xoá bài viết
+      micropost:
+        post_time: "Đăng vào %{time} trước"
+        delete: Xoá
+        confirm: Chắc chưa?
+      errors:
+        image_format: Sai định dạng ảnh
+        size_too_big: "ảnh phải nhỏ hơn 5MB"
