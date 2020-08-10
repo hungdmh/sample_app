@@ -86,8 +86,16 @@ vi:
       password: Mật khẩu
       password_confirmation: Nhập lại mật khẩu
     user:
-      delete: "Xoá"
-      confirm: "Chắc chắn chưa?"
+      delete: Xoá
+      confirm: Chắc chắn chưa?
+    follow:
+      submit: Theo dõi
+    unfollow:
+      submit: Bỏ theo dõi
+    following:
+      title: Đang theo dõi
+    followers:
+      title: Người theo dõi
   shared:
     error_messages:
       error_count_text: Đã có
@@ -99,6 +107,9 @@ vi:
     user_info:
       view_my_profile: Xem trang cá nhân
       micropost: bài đăng
+    stats:
+      following: đang theo dõi
+      followers: người theo dõi
   sessions:
     new:
       title: Đăng nhập

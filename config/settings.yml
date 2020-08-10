@@ -13,6 +13,7 @@ size:
   logo: 200
   avatar:
     default: 80
+    xs: 30
     small: 50
   image:
     normal: 500
@@ -27,6 +28,7 @@ validations:
       regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
     password:
       min_length: 6
+    image_content_type: <%= %w(image/jpeg image/gif image/png) %>
   micropost:
     max_length: 140
 boolean:
