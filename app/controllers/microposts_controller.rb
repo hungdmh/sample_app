@@ -10,7 +10,7 @@ class MicropostsController < ApplicationController
       flash[:success] = t ".success"
       redirect_to root_url
     else
-      @feed_items = current_user.feed.recent_posts.page params[:page]
+      @feed_items = feed_items
       flash.now[:danger] = t ".fail"
       render "static_pages/home"
     end
@@ -29,6 +29,11 @@ class MicropostsController < ApplicationController
 
   def new_micropost
     @micropost = current_user.microposts.build micropost_params
+  end
+
+  def feed_items
+    per_page = Settings.pagination.per_page
+    current_user.feed.date_desc_posts.page params[:page].per per_page
   end
 
   private

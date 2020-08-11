@@ -29,9 +29,6 @@ class UsersController < ApplicationController
     page = params[:page]
     @microposts = @user.microposts.page(page).per Settings.pagination.per_page
     return if @user&.activated
-
-    flash[:danger] = t ".user_not_found"
-    redirect_to root_path
   end
 
   def edit
@@ -50,6 +47,12 @@ class UsersController < ApplicationController
     end
   end
 
+  private
+
+  def user_params
+    params.require(:user).permit User::USER_PARAMS
+  end
+
   def correct_user
     @user = find_user_by_id params[:id]
     redirect_to(root_url) unless current_user? @user
@@ -66,12 +69,10 @@ class UsersController < ApplicationController
   end
 
   def find_user_by_id id
-    User.find_by id: id
-  end
+    user = User.find_by id: id
+    return user if user
 
-  private
-
-  def user_params
-    params.require(:user).permit User::USER_PARAMS
+    flash[:danger] = t ".user_not_found"
+    redirect_to root_path
   end
 end

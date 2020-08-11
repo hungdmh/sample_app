@@ -7,6 +7,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "config"
 gem "faker"
 gem "figaro"
+gem "i18n-js"
 gem "image_processing", "~> 1.0"
 gem "jbuilder", "~> 2.7"
 gem "kaminari"
@@ -18,7 +19,6 @@ gem "rails-i18n", "~> 6.0.0"
 gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 4.0"
-gem "i18n-js"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

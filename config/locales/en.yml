@@ -88,7 +88,15 @@ en:
       password_confirmation: Password Confirmation
     user:
       delete: Delete
-      confirm: "Are you sure?"
+      confirm: Are you sure?
+    follow:
+      submit: Follow
+    unfollow:
+      submit: Unfollow
+    following:
+      title: Following
+    followers:
+      title: Followers
   shared:
     error_messages:
       error_count_text: The form contains
@@ -100,6 +108,9 @@ en:
     user_info:
       view_my_profile: "view my profile"
       micropost: micropost
+    stats:
+      following: following
+      followers: followers
   sessions:
     new:
       title: Login
